@@ -7,7 +7,7 @@ const Header = () => {
         <div className="entete-gauche">
           <p>Votre Solution pour une Construction Moderne</p>
           <span className="icone gauche">
-            <i className="fa-solid fa-phone"></i> +243990548021
+            <i className="fa-solid fa-phone"></i> +243990892295
           </span>
         </div>
         <div className="entete-droite">

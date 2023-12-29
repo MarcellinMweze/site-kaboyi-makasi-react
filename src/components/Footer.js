@@ -1,6 +1,5 @@
 import React from "react";
 import Navigation from "./Navigation";
-import BoutonTop from "./BoutonTop";
 
 const Footer = () => {
   return (
@@ -31,7 +30,7 @@ const Footer = () => {
             km.engineeringsarl@kaboyimakasi.com
           </p>
           <p>
-            <i class="fa-solid fa-mobile-screen"></i>+243990548021
+            <i class="fa-solid fa-mobile-screen"></i>+243990892295
           </p>
           <p>
             <i class="fa-solid fa-globe"></i>www.kaboyimakasi.com
