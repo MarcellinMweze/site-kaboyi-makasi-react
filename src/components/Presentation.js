@@ -3,7 +3,7 @@ import batiment1 from "../assets/images/batiment1.jpg";
 import batiment5 from "../assets/images/station2.jpg";
 import batiment4 from "../assets/images/hotel-rift.jpg";
 import makomeno from "../assets/images/batiment4.jpg";
-import universite from "../assets/images/universite-Aumonier.jpg"
+import universite from "../assets/images/universite-Aumonier.jpeg"
 
 const Presentation = () => {
   return (

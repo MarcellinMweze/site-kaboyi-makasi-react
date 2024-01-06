@@ -190,7 +190,7 @@ ul {
   color: var(--ecrit);
   font-weight: 600;
 }
-.nav-active {
+.nav_active {
   border: 2px solid var(--background1);
   border-radius: 8px;
   color: var(--background1);

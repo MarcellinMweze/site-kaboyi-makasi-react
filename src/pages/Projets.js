@@ -11,7 +11,7 @@ import makomeno from "../assets/images/makomeno.jpg";
 import hotelRift from "../assets/images/hotel-rift.jpg";
 import appartementJumele from "../assets/images/Maison d'habitation kabula meshi.jpg";
 import miniVilla from "../assets/images/villa-craa.jpg";
-import universite from "../assets/images/universite-Aumonier.jpg";
+import universite from "../assets/images/universite-Aumonier.jpeg";
 import hotelRoger from "../assets/images/mr-roger-hotel.jpeg";
 import camp from "../assets/images/camp-de-travailleurs.jpeg"
 import AnimationPage from "../AnimationPage";
@@ -46,19 +46,6 @@ const Projets = () => {
                   <strong>Adresse :</strong>
                   <em>
                     Lac Kipopo coin Biayi Commune et Ville de Lubumbashi en RD-Congo
-                  </em>
-                </p>
-              </div>
-              <div className="projet-card">
-                <img src={hotelRoger} alt="Photo de l'hôtel Mr Roger" />
-                <p>
-                  <strong>Description du Projet : </strong>Construction d’un
-                  hôtel
-                </p>
-                <p>
-                  <strong>Adresse :</strong>
-                  <em>
-                    n°5341 Avenue Boya dans la Ville et Commune de Lubumbashi en RD-Congo
                   </em>
                 </p>
               </div>
@@ -139,6 +126,19 @@ const Projets = () => {
                 <p>
                   <strong>Adresse : </strong>
                   <em>Au niveau de Craa à Lubumbashi en RD-Congo</em>
+                </p>
+              </div>
+              <div className="projet-card">
+                <img src={hotelRoger} alt="Photo de l'hôtel Mr Roger" />
+                <p>
+                  <strong>Description du Projet : </strong>Construction d’un
+                  hôtel
+                </p>
+                <p>
+                  <strong>Adresse :</strong>
+                  <em>
+                    n°5341 Avenue Boya dans la Ville et Commune de Lubumbashi en RD-Congo
+                  </em>
                 </p>
               </div>
               <div className="projet-card">

@@ -16,7 +16,7 @@ const Navigation = () => {
         <li>
           <NavLink
             to="/"
-            className={(nav) => (nav.isActive ? "nav-active" : "hover")}
+            className={(nav) => (nav.isActive ? "nav_active" : "hover")}
           >
             Acceuil
           </NavLink>
@@ -24,7 +24,7 @@ const Navigation = () => {
         <li>
           <NavLink
             to="/apropos"
-            className={(nav) => (nav.isActive ? "nav-active" : "hover")}
+            className={(nav) => (nav.isActive ? "nav_active" : "hover")}
           >
             A Propos
           </NavLink>
@@ -32,7 +32,7 @@ const Navigation = () => {
         <li>
           <NavLink
             to="/projets"
-            className={(nav) => (nav.isActive ? "nav-active" : "hover")}
+            className={(nav) => (nav.isActive ? "nav_active" : "hover")}
           >
             Nos Projets
           </NavLink>
@@ -40,7 +40,7 @@ const Navigation = () => {
         <li>
           <NavLink
             to="/contact"
-            className={(nav) => (nav.isActive ? "nav-active" : "hover")}
+            className={(nav) => (nav.isActive ? "nav_active" : "hover")}
           >
             Nous contacter
           </NavLink>
