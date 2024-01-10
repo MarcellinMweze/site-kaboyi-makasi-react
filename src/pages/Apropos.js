@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Devise from "../components/Devise";
 import ReseauSociaux from "../components/ReseauSociaux";
 import Logo from "../components/Logo";
@@ -9,6 +9,10 @@ import BoutonTop from "../components/BoutonTop";
 import AnimationPage from "../AnimationPage";
 
 const Apropos = () => {
+  useEffect(() => {
+    document.title = "Kaboyi Makasi | Apropos";
+  }, []);
+
   return (
     <AnimationPage>
       <main>

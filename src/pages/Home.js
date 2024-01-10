@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Navigation from "../components/Navigation";
 import Presentation from "../components/Presentation";
 import Apercu from "../components/Apercu";
@@ -13,6 +13,10 @@ import BoutonTop from "../components/BoutonTop";
 import AnimationPage from "../AnimationPage";
 
 const Home = () => {
+
+  useEffect(() => {
+    document.title = "Kaboyi Makasi | Home";
+  }, []);
   return (
     <AnimationPage>
       <main>

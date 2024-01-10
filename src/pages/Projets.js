@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Devise from "../components/Devise";
 import ReseauSociaux from "../components/ReseauSociaux";
 import Logo from "../components/Logo";
@@ -18,6 +18,9 @@ import AnimationPage from "../AnimationPage";
 
 
 const Projets = () => {
+  useEffect(() => {
+    document.title = "Kaboyi Makasi | Nos Projets";
+  }, []);
   return (
     <AnimationPage>
       <main>

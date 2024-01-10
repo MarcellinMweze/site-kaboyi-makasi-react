@@ -2,11 +2,15 @@ import Devise from "../components/Devise";
 import ReseauSociaux from "../components/ReseauSociaux";
 import Logo from "../components/Logo";
 import Navigation from "../components/Navigation";
-import React, { useRef } from "react";
+import React, { useRef,useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import AnimationPage from "../AnimationPage";
 
 const Contact = () => {
+
+  useEffect(() => {
+    document.title = "Kaboyi Makasi | Contact";
+  }, []);
   const form = useRef();
 
   const sendEmail = (e) => {
