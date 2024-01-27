@@ -2,15 +2,12 @@ import Devise from "../components/Devise";
 import ReseauSociaux from "../components/ReseauSociaux";
 import Logo from "../components/Logo";
 import Navigation from "../components/Navigation";
-import React, { useRef,useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import AnimationPage from "../AnimationPage";
 
 const Contact = () => {
 
-  useEffect(() => {
-    document.title = "Kaboyi Makasi | Contact";
-  }, []);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -68,28 +65,32 @@ const Contact = () => {
                 <h3>Nous contacter </h3>
                 <form ref={form} onSubmit={sendEmail}>
                   <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">
+                    <label for="exampleFormControlInput1" className="form-label"
+                      htmlFor="name">
                       Nom
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
+                      id="name"
                       name="name"
                       required
                       placeholder="Nom complet"
                       autoComplete="off"
                     />
                   </div>
-                  <div class="mb-3">
+                  <div className="mb-3">
                     <label
                       for="exampleFormControlInput1"
                       className="form-label"
+                      htmlFor="email"
                     >
                       Adresse Email
                     </label>
                     <input
                       type="email"
                       class="form-control"
+                      id="email"
                       placeholder="nom@exemple.com"
                       required
                       name="email"
@@ -97,12 +98,14 @@ const Contact = () => {
                     />
                   </div>
                   <div className="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">
+                    <label for="exampleFormControlTextarea1" class="form-label"
+                      htmlFor="message">
                       Message
                     </label>
                     <textarea
                       className="form-control"
                       name="message"
+                      id="message"
                       rows="4"
                       required
                       autoComplete="off"

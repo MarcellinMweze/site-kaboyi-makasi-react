@@ -18,9 +18,6 @@ import AnimationPage from "../AnimationPage";
 
 
 const Projets = () => {
-  useEffect(() => {
-    document.title = "Kaboyi Makasi | Nos Projets";
-  }, []);
   return (
     <AnimationPage>
       <main>

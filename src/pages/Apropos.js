@@ -9,10 +9,6 @@ import BoutonTop from "../components/BoutonTop";
 import AnimationPage from "../AnimationPage";
 
 const Apropos = () => {
-  useEffect(() => {
-    document.title = "Kaboyi Makasi | Apropos";
-  }, []);
-
   return (
     <AnimationPage>
       <main>
