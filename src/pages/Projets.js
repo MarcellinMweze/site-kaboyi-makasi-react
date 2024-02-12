@@ -11,11 +11,12 @@ import makomeno from "../assets/images/makomeno.jpg";
 import hotelRift from "../assets/images/hotel-rift.jpg";
 import appartementJumele from "../assets/images/Maison d'habitation kabula meshi.jpg";
 import miniVilla from "../assets/images/villa-craa.jpg";
-import universite from "../assets/images/universite-Aumonier.jpeg";
+import universite from "../assets/images/universite-Aumonier.jpg";
 import hotelRoger from "../assets/images/mr-roger-hotel.jpeg";
 import camp from "../assets/images/camp-de-travailleurs.jpeg"
 import AnimationPage from "../AnimationPage";
-
+import kabulameshiPcr from "../assets/images/kabulameshi-pcr.jpg";
+import drNoah from "../assets/images/dr-noah.jpeg"
 
 const Projets = () => {
   return (
@@ -64,17 +65,17 @@ const Projets = () => {
                 </p>
               </div>
               <div className="projet-card">
-                <img src={kifitahopital2} alt="Photo de l'hôpital Kifita" />
+                <img
+                  src={appartementJumele}
+                  alt="Photo Appartemant jumelé à Kabulameshi"
+                />
                 <p>
-                  <strong>Description du Projet : </strong>Construction d’un
-                  hôpital financé par l’Entreprise Minière MMG pour le village
-                  Kifita (Vu de l'extérieur).
+                  <strong>Description du Projet : </strong> Construction de deux
+                  appartements jumelés.
                 </p>
                 <p>
-                  <strong>Adresse :</strong>
-                  <em>
-                    Village Kifita sur la route Kinsevere à Lubumbashi en RD-Congo
-                  </em>
+                  <strong>Adresse : </strong>
+                  <em>Kabulameshi à Lubumbashi en RD-Congo</em>
                 </p>
               </div>
               <div className="projet-card">
@@ -90,17 +91,27 @@ const Projets = () => {
                 </p>
               </div>
               <div className="projet-card">
-                <img
-                  src={appartementJumele}
-                  alt="Photo Appartemant jumelé à Kabulameshi"
-                />
+                <img src={kifitahopital2} alt="Photo de l'hôpital Kifita" />
                 <p>
-                  <strong>Description du Projet : </strong> Construction de deux
-                  appartements jumelés.
+                  <strong>Description du Projet : </strong>Construction d’un
+                  hôpital financé par l’Entreprise Minière MMG pour le village
+                  Kifita (Vu de l'extérieur).
+                </p>
+                <p>
+                  <strong>Adresse :</strong>
+                  <em>
+                    Village Kifita sur la route Kinsevere à Lubumbashi en RD-Congo
+                  </em>
+                </p>
+              </div>
+              <div className="projet-card">
+                <img src={kabulameshiPcr} alt="Photo Maison Résidentielle" />
+                <p>
+                  <strong>Description du Projet : </strong> Construction d’une maison résidentielle
                 </p>
                 <p>
                   <strong>Adresse : </strong>
-                  <em>Kabulameshi à Lubumbashi en RD-Congo</em>
+                  <em>Kabulameshi Mashinga, réference bureau PCR à Lubumbashi en RD-Congo</em>
                 </p>
               </div>
               <div className="projet-card">
@@ -126,6 +137,19 @@ const Projets = () => {
                 <p>
                   <strong>Adresse : </strong>
                   <em>Au niveau de Craa à Lubumbashi en RD-Congo</em>
+                </p>
+              </div>
+              <div className="projet-card">
+                <img src={drNoah} alt="Photo d'une maison de résidence" />
+                <p>
+                  <strong>Description du Projet : </strong>Construction d’une maison
+                  résidentielle.
+                </p>
+                <p>
+                  <strong>Adresse :</strong>
+                  <em>
+                    Avenue Fifi masuka, Quartier Joli Site à Lubumbashi en RD-Congo
+                  </em>
                 </p>
               </div>
               <div className="projet-card">
