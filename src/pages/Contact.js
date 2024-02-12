@@ -2,7 +2,7 @@ import Devise from "../components/Devise";
 import ReseauSociaux from "../components/ReseauSociaux";
 import Logo from "../components/Logo";
 import Navigation from "../components/Navigation";
-import React, { useRef, useEffect } from "react";
+import React, { useRef} from "react";
 import emailjs from "@emailjs/browser";
 import AnimationPage from "../AnimationPage";
 

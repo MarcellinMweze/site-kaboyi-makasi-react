@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Devise from "../components/Devise";
 import ReseauSociaux from "../components/ReseauSociaux";
 import Logo from "../components/Logo";

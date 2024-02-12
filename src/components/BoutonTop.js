@@ -5,7 +5,7 @@ const BoutonTop = (props) => {
     return (
         <div className="sec-footer">
             <div>
-                <p>&copy; 2023 KME. Tout droit réservé.</p>
+                <p>&copy; 2024 KME. Tout droit réservé.</p>
             </div>
             <div className="btn-top">
                 {props.page && (

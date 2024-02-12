@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navigation from "../components/Navigation";
 import Presentation from "../components/Presentation";
 import Apercu from "../components/Apercu";
