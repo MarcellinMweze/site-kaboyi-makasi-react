@@ -13,10 +13,10 @@ import appartementJumele from "../assets/images/Maison d'habitation kabula meshi
 import miniVilla from "../assets/images/villa-craa.jpg";
 import universite from "../assets/images/universite-Aumonier.jpg";
 import hotelRoger from "../assets/images/mr-roger-hotel.jpeg";
-import camp from "../assets/images/camp-de-travailleurs.jpeg"
+import camp from "../assets/images/camp-de-travailleurs.jpeg";
 import AnimationPage from "../AnimationPage";
 import kabulameshiPcr from "../assets/images/kabulameshi-pcr.jpg";
-import drNoah from "../assets/images/dr-noah.jpeg"
+import drNoah from "../assets/images/dr-noah.jpeg";
 
 const Projets = () => {
   return (
@@ -39,19 +39,21 @@ const Projets = () => {
             <h2>Certaines de nos réalisations</h2>
             <div className="card-container">
               <div className="projet-card">
-                <img src={universite} alt="Photo de l'Université Pour les Aumoniers" />
+                <img src={universite} alt="Université des Aumoniers" />
                 <p>
-                  <strong>Description du Projet : </strong>Construction d’une Université pour les Aumôniers du Travail
+                  <strong>Description du Projet : </strong>Construction d’une
+                  Université pour les Aumôniers du Travail
                 </p>
                 <p>
                   <strong>Adresse :</strong>
                   <em>
-                    Lac Kipopo coin Biayi Commune et Ville de Lubumbashi en RD-Congo
+                    Lac Kipopo coin Biayi Commune et Ville de Lubumbashi en
+                    RD-Congo
                   </em>
                 </p>
               </div>
               <div className="projet-card">
-                <img src={kifitahopital} alt="Photo de l'hôpital Kifita" />
+                <img src={kifitahopital} alt="Hôpital Kifita" />
                 <p>
                   <strong>Description du Projet : </strong>Construction d’un
                   hôpital financé par l’Entreprise Minière MMG pour le village
@@ -60,14 +62,15 @@ const Projets = () => {
                 <p>
                   <strong>Adresse :</strong>
                   <em>
-                    Village Kifita sur la route Kinsevere à Lubumbashi en RD-Congo
+                    Village Kifita sur la route Kinsevere à Lubumbashi en
+                    RD-Congo
                   </em>
                 </p>
               </div>
               <div className="projet-card">
                 <img
                   src={appartementJumele}
-                  alt="Photo Appartemant jumelé à Kabulameshi"
+                  alt="Appartemant jumelé à Kabulameshi"
                 />
                 <p>
                   <strong>Description du Projet : </strong> Construction de deux
@@ -79,19 +82,21 @@ const Projets = () => {
                 </p>
               </div>
               <div className="projet-card">
-                <img src={makomeno} alt="Photo d'un Appartement Makomeno" />
+                <img src={makomeno} alt="Appartement Makomeno" />
                 <p>
-                  <strong>Description du Projet : </strong>Construction de deux appartements Jumelés.
+                  <strong>Description du Projet : </strong>Construction de deux
+                  appartements Jumelés.
                 </p>
                 <p>
                   <strong>Adresse :</strong>
                   <em>
-                    Quartier Makutano, Commune et Ville de Lubumbashi en RD-Congo.
+                    Quartier Makutano, Commune et Ville de Lubumbashi en
+                    RD-Congo.
                   </em>
                 </p>
               </div>
               <div className="projet-card">
-                <img src={kifitahopital2} alt="Photo de l'hôpital Kifita" />
+                <img src={kifitahopital2} alt="Hôpital Kifita" />
                 <p>
                   <strong>Description du Projet : </strong>Construction d’un
                   hôpital financé par l’Entreprise Minière MMG pour le village
@@ -100,22 +105,27 @@ const Projets = () => {
                 <p>
                   <strong>Adresse :</strong>
                   <em>
-                    Village Kifita sur la route Kinsevere à Lubumbashi en RD-Congo
+                    Village Kifita sur la route Kinsevere à Lubumbashi en
+                    RD-Congo
                   </em>
                 </p>
               </div>
               <div className="projet-card">
-                <img src={kabulameshiPcr} alt="Photo Maison Résidentielle" />
+                <img src={kabulameshiPcr} alt="Maison Résidentielle" />
                 <p>
-                  <strong>Description du Projet : </strong> Construction d’une maison résidentielle
+                  <strong>Description du Projet : </strong> Construction d’une
+                  maison résidentielle
                 </p>
                 <p>
                   <strong>Adresse : </strong>
-                  <em>Kabulameshi Mashinga, réference bureau PCR à Lubumbashi en RD-Congo</em>
+                  <em>
+                    Kabulameshi Mashinga, réference bureau PCR à Lubumbashi en
+                    RD-Congo
+                  </em>
                 </p>
               </div>
               <div className="projet-card">
-                <img src={hotelRift} alt="Photo Rift Hôtel" />
+                <img src={hotelRift} alt="Rift Hôtel" />
                 <p>
                   <strong>Description du Projet : </strong> Construction d’un
                   Hôtel (Rift Congo).
@@ -129,7 +139,7 @@ const Projets = () => {
                 </p>
               </div>
               <div className="projet-card">
-                <img src={miniVilla} alt="Photo d'une Mini-Villa" />
+                <img src={miniVilla} alt="Mini-Villa" />
                 <p>
                   <strong>Description du Projet : </strong> Construction d’une
                   Mini-Villa
@@ -140,20 +150,21 @@ const Projets = () => {
                 </p>
               </div>
               <div className="projet-card">
-                <img src={drNoah} alt="Photo d'une maison de résidence" />
+                <img src={drNoah} alt="Maison résidentielle" />
                 <p>
-                  <strong>Description du Projet : </strong>Construction d’une maison
-                  résidentielle.
+                  <strong>Description du Projet : </strong>Construction d’une
+                  maison résidentielle.
                 </p>
                 <p>
                   <strong>Adresse :</strong>
                   <em>
-                    Avenue Fifi masuka, Quartier Joli Site à Lubumbashi en RD-Congo
+                    Avenue Fifi masuka, Quartier Joli Site à Lubumbashi en
+                    RD-Congo
                   </em>
                 </p>
               </div>
               <div className="projet-card">
-                <img src={hotelRoger} alt="Photo de l'hôtel Mr Roger" />
+                <img src={hotelRoger} alt="Hôtel Mr Roger" />
                 <p>
                   <strong>Description du Projet : </strong>Construction d’un
                   hôtel
@@ -161,14 +172,16 @@ const Projets = () => {
                 <p>
                   <strong>Adresse :</strong>
                   <em>
-                    n°5341 Avenue Boya dans la Ville et Commune de Lubumbashi en RD-Congo
+                    n°5341 Avenue Boya dans la Ville et Commune de Lubumbashi en
+                    RD-Congo
                   </em>
                 </p>
               </div>
               <div className="projet-card">
-                <img src={camp} alt="Photo d'un Camp de travailleurs" />
+                <img src={camp} alt="Camp de travailleurs" />
                 <p>
-                  <strong>Description du Projet : </strong> Construction d’un Camp de Travailleurs
+                  <strong>Description du Projet : </strong> Construction d’un
+                  Camp de Travailleurs
                 </p>
                 <p>
                   <strong>Adresse : </strong>

@@ -26,7 +26,7 @@ const Apercu = () => {
               </p>
             </div>
             <div className="imgapropos">
-              <img src={batiment5} alt="Photo d'une Maison" />
+              <img src={batiment5} alt="Appartement Golf le Battant" />
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import aproposimg from "../assets/images/mr-roger-hotel.jpeg";
 import makomeno from "../assets/images/makomeno.jpg";
-import villa from "../assets/images/hotel-rift-interieur.jpg"
+import villa from "../assets/images/hotel-rift-interieur.jpg";
 
 const AproposComp = () => {
   return (
@@ -11,7 +11,7 @@ const AproposComp = () => {
           <h2 id="idapropos">A propos de l'Entreprise KME SARL</h2>
           <div className="section-apercu">
             <div className="img-apercu">
-              <img src={aproposimg} alt="Image du Batiment Craa" />
+              <img src={aproposimg} alt="Hôtel Mr Roger" />
             </div>
             <div className="para-apercu">
               <h3>I. Appercu</h3>
@@ -58,21 +58,20 @@ const AproposComp = () => {
               </p>
             </div>
             <div className="img-mission">
-              <img src={villa} alt="Photo à Makomeno" />
+              <img src={villa} alt="Villa Makomeno" />
             </div>
           </div>
           <div className="section-valeurs">
             <div className="img-valeurs">
-              <img src={makomeno} alt="Photo à Makomeno" />
+              <img src={makomeno} alt="Makomeno Appartement" />
             </div>
             <div className="para-valeurs">
               <h3>III. Valeurs</h3>
               <p>
-                Les valeurs fondamentales de la Société KABOYI MAKASI ENGINEERING
-                SARL définissent la manière
-                dont nous devons agir à la fois en tant qu’un individu et en
-                tant qu’une équipe de travail pour atteindre nos objectifs
-                commerciaux
+                Les valeurs fondamentales de la Société KABOYI MAKASI
+                ENGINEERING SARL définissent la manière dont nous devons agir à
+                la fois en tant qu’un individu et en tant qu’une équipe de
+                travail pour atteindre nos objectifs commerciaux
               </p>
               <p>
                 Faire ce qui est juste : nous nous engageons à respecter les
@@ -110,7 +109,8 @@ const AproposComp = () => {
                 topographiques et géotechniques
               </p>
               <p>
-                <i class="fa-regular fa-circle-check"></i>Le Service de nettoyage (Cleaning)
+                <i class="fa-regular fa-circle-check"></i>Le Service de
+                nettoyage (Cleaning)
               </p>
               <p>
                 <i class="fa-regular fa-circle-check"></i>Les projets

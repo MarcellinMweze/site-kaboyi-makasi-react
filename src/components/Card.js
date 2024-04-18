@@ -6,7 +6,7 @@ const Card = () => {
   console.log(projectsData);
   return (
     <div className="projet-card">
-      <img src={logimg} alt="Photo de du Projet Université" />
+      <img src={logimg} alt="Projet Université" />
       <p>
         <strong>Description du Projet : </strong>Lorem ipsum, dolor sit amet
         consectetur adipisicing elit. Cupiditate accusamus nisi expedita, iure

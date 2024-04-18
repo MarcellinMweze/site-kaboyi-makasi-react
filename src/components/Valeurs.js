@@ -7,7 +7,7 @@ const Valeurs = () => {
     <div className="section-valeurs">
       <div className="contener-valeur">
         <div className="imgapropos">
-          <img src={batiment4} alt="Photo d'une Station" />
+          <img src={batiment4} alt="Station Service" />
         </div>
         <h4>Nos Valeurs</h4>
         <div className="valeur">

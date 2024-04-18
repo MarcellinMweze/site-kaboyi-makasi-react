@@ -7,7 +7,7 @@ const Vision = () => {
     <div className="section-vision">
       <div className="contener-vision">
         <div className="imgapropos">
-          <img src={batiment5} alt="Photo d'une Station" />
+          <img src={batiment5} alt="Station Service" />
         </div>
         <h4>Notre Vision</h4>
         <div className="vision">

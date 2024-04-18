@@ -6,7 +6,7 @@ const Domaine = () => {
   return (
     <div className="section-domaine">
       <div className="imgapropos">
-        <img src={batiment4} alt="Photo d'une Station" />
+        <img src={batiment4} alt="Station Service Kasenga" />
       </div>
       <h4>Ce que nous faisons</h4>
       <div className="faire">
