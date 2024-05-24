@@ -17,6 +17,9 @@ import camp from "../assets/images/camp-de-travailleurs.jpeg";
 import AnimationPage from "../AnimationPage";
 import kabulameshiPcr from "../assets/images/kabulameshi-pcr.jpg";
 import drNoah from "../assets/images/dr-noah.jpeg";
+import bat1 from "../assets/images/Bat1.jpeg";
+import bat2 from "../assets/images/Bat2.jpeg";
+import bat3 from "../assets/images/Bat3.jpeg";
 
 const Projets = () => {
   return (
@@ -187,6 +190,15 @@ const Projets = () => {
                   <strong>Adresse : </strong>
                   <em>A Fungurume Ville de Kolwezi en RD-Congo</em>
                 </p>
+              </div>
+              <div className="projet-card">
+                <img src={bat1} alt="Maison en étage" />
+              </div>
+              <div className="projet-card">
+                <img src={bat2} alt="Plan-Exécuté" />
+              </div>
+              <div className="projet-card">
+                <img src={bat3} alt="Plan-Maquette" />
               </div>
             </div>
           </div>
