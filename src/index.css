@@ -670,6 +670,16 @@ ul {
   .contact .entete-droite {
     display: flex;
   }
+
+  .footer {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .footer {
+    height: 530px;
+  }
 }
 
 @media screen and (max-width: 820px) {
@@ -679,10 +689,6 @@ ul {
 
   .aide {
     display: none;
-  }
-
-  .footer {
-    height: 500px;
   }
 
   .propos-comp .section-domaine .faire {
@@ -727,10 +733,6 @@ ul {
 
   .contact .entete-droite {
     display: flex;
-  }
-
-  .footer {
-    height: 540px;
   }
 }
 
@@ -813,7 +815,7 @@ ul {
 
 @media screen and (max-width: 343px) {
   .footer {
-    height: 710px;
+    height: 730px;
   }
   .sec-footer {
     flex-direction: column;
@@ -826,9 +828,6 @@ ul {
 }
 
 @media screen and (max-width: 308px) {
-  .footer {
-    height: 720px;
-  }
   .sec-footer {
     flex-direction: column;
   }
