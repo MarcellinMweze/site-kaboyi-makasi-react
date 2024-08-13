@@ -659,6 +659,19 @@ ul {
   }
 }
 
+@media screen and (max-width: 876px) {
+  .entete {
+    display: none;
+  }
+  .navbar {
+    top: 0px;
+  }
+
+  .contact .entete-droite {
+    display: flex;
+  }
+}
+
 @media screen and (max-width: 820px) {
   .contener-footer {
     grid-template-columns: 1fr;
