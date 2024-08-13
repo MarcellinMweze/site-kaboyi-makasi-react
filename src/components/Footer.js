@@ -65,7 +65,7 @@ const Footer = () => {
             </span>
             <span class="icone">
               <a
-                href="https://wa.me/990548021?test=Je peux vous aider ?"
+                href="https://wa.me/+243990548021?test=Je peux vous aider ?"
                 target="_blank"
                 rel="noopener nonef noreferrer"
               >
