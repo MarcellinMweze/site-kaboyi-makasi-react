@@ -188,7 +188,7 @@ const Projets = () => {
                 </p>
                 <p>
                   <strong>Adresse : </strong>
-                  <em>A Fungurume Ville de Kolwezi en RD-Congo</em>
+                  <em>A Fungurume Province de Lualaba en RD-Congo</em>
                 </p>
               </div>
               <div className="projet-card">
